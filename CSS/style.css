@@ -8,7 +8,7 @@ body {
   display: flex;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-image: url("../bgDarker3.jpg");
+  background-image: url("../Images/bgDarker3.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -53,7 +53,7 @@ body {
 }
 
 #container .showoff img {
-  width: 500px;
+  width: 80px;
   height: auto;
 }
 
@@ -96,6 +96,9 @@ h3 {
   #container {
     font-size: .7em;
   }
+  #container .showoff img {
+    width: 105px;
+  }
   .header1 {
     margin-top: 20px;
   }
@@ -105,9 +108,20 @@ h3 {
   #container {
     font-size: .9em;
   }
-  #container img {
-    width: 100%;
-    height: 100%;
+  #container .showoff img {
+    width: 120px;
+  }
+  #header {
+    font-size: .7em;
+  }
+}
+
+@media (min-width: 411px) {
+  #container {
+    font-size: .9em;
+  }
+  #container .showoff img {
+    width: 135px;
   }
   #header {
     font-size: .7em;
@@ -124,11 +138,8 @@ h3 {
   #header {
     margin-top: 113%;
   }
-}
-
-@media (min-width: 414px) and (min-height: 896px) {
-  #header {
-    margin-top: 110.5%;
+  #container .showoff img {
+    width: 255px;
   }
 }
 
@@ -141,6 +152,9 @@ h3 {
   }
   #container {
     margin-top: 10%;
+  }
+  #container .showoff img {
+    width: 200px;
   }
   #container #background {
     padding-bottom: 40px;
@@ -156,6 +170,33 @@ h3 {
   }
   #container {
     margin-top: 10%;
+  }
+  #container .showoff img {
+    width: 255px;
+  }
+  #background {
+    padding-bottom: 40px;
+  }
+}
+
+@media (min-width: 800px) {
+  #container .showoff img {
+    width: 265px;
+  }
+}
+
+@media (min-width: 834px) {
+  #header {
+    margin-top: 69%;
+  }
+  #header .header1 {
+    margin-top: 0px;
+  }
+  #container {
+    margin-top: 10%;
+  }
+  #container .showoff img {
+    width: 275px;
   }
   #background {
     padding-bottom: 40px;
@@ -174,6 +215,9 @@ h3 {
     margin-top: 10%;
     font-size: 1em;
   }
+  #container .showoff img {
+    width: 340px;
+  }
   #background {
     padding-bottom: 40px;
   }
@@ -187,8 +231,23 @@ h3 {
     margin-top: 5%;
     font-size: 1.3em;
   }
+  #container .showoff img {
+    width: 420px;
+  }
   #container #background {
     padding-bottom: 60px;
+  }
+}
+
+@media (min-width: 1440px) {
+  #container .showoff img {
+    width: 470px;
+  }
+}
+
+@media (min-width: 1500px) {
+  #container .showoff img {
+    width: 510px;
   }
 }
 /*# sourceMappingURL=style.css.map */
