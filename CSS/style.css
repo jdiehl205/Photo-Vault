@@ -1,0 +1,194 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-image: url("/Images/IMG_0475_01.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Roboto', sans-serif;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* Container */
+#container {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-rows: auto;
+  color: #333;
+  margin-top: 20%;
+  margin-bottom: 10%;
+  font-size: .5em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#container .showoff {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  padding-left: 0%;
+  row-gap: 5%;
+  -webkit-column-gap: 5%;
+          column-gap: 5%;
+}
+
+#container .showoff img {
+  width: 100%;
+  height: 100%;
+}
+
+#background {
+  width: 70vw;
+  background-color: #f3f3f3;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* Header */
+#header {
+  display: block;
+  text-align: center;
+  color: #333;
+  margin-top: 100%;
+  visibility: visible;
+  font-size: .5em;
+}
+
+.header1 {
+  margin-bottom: 20px;
+}
+
+.vault {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translate(0px, 100px);
+          transform: translate(0px, 100px);
+  margin-top: -100px;
+}
+
+/* Media Queries */
+@media (min-width: 320px) {
+  #container {
+    font-size: .7em;
+  }
+  .header1 {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 360px) {
+  #container {
+    font-size: .9em;
+  }
+  #container img {
+    width: 100%;
+    height: 100%;
+  }
+  #header {
+    font-size: .7em;
+  }
+}
+
+@media (min-height: 740px) {
+  #header {
+    margin-top: 106%;
+  }
+}
+
+@media (min-height: 812px) {
+  #header {
+    margin-top: 113%;
+  }
+}
+
+@media (min-width: 414px) and (min-height: 896px) {
+  #header {
+    margin-top: 110.5%;
+  }
+}
+
+@media (min-width: 600px) {
+  #header {
+    margin-top: 90%;
+  }
+  #header .header1 {
+    margin-top: 0;
+  }
+  #container {
+    margin-top: 10%;
+  }
+  #container #background {
+    padding-bottom: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  #header {
+    margin-top: 69%;
+  }
+  #header .header1 {
+    margin-top: 0px;
+  }
+  #container {
+    margin-top: 10%;
+  }
+  #background {
+    padding-bottom: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #header {
+    margin-top: 50%;
+    font-size: 1em;
+  }
+  #header .header1 {
+    margin-top: 0px;
+  }
+  #container {
+    margin-top: 10%;
+    font-size: 1em;
+  }
+  #background {
+    padding-bottom: 40px;
+  }
+}
+
+@media (min-width: 1280px) {
+  #header {
+    margin-top: 40%;
+  }
+  #container {
+    margin-top: 5%;
+    font-size: 1.3em;
+  }
+  #container #background {
+    padding-bottom: 60px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
