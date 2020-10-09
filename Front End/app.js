@@ -1,8 +1,3 @@
-window.addEventListener("load", () => {
-    gsap.to(window, {duration: .5, scrollTo: 1, autoKill: false})
-})
-
-
 // Create A Timeline to put the animations in order
 let tl = gsap.timeline({
     scrollTrigger: {
