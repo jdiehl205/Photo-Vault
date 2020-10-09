@@ -8,7 +8,7 @@ body {
   display: flex;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-image: url("/Images/IMG_0475_01.jpg");
+  background-image: url("../bgDarker3.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
